@@ -1,0 +1,78 @@
+.container {
+    width: 900px;
+    height: 900px;
+    background-color: #5F2580;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.opponentSide{
+    width: 900px;
+    height: 200px;
+    background-color: #7109AA;
+    align-items: center;
+    justify-items: center;
+}
+
+.middleSide {
+    width: 900px;
+    height: 500px;
+    background-color: #48036F;
+}
+
+.playerSide{
+    width: 900px;
+    height: 200px;
+    background-color: #7109AA;
+}
+
+.reserveDeck {
+    width: 140px;
+    height: 200px;
+    background-color: #7C005A;
+    background-image: url("sprites/back.png");
+}
+
+.resetCards {
+    width: 140px;
+    height: 200px;
+    background-color: black;
+    background-image: url("sprites/back.png");
+}
+
+.fourPlayingCards {
+    display: flex;
+    width: 600px;
+    height: 200px;
+    background-color: #7C005A;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+  }
+
+.firstcard {
+    width: 140px;
+    height: 200px;
+    background-color: black;
+    background-image: url("sprites/back.png");
+}
+.secondcard {
+    width: 140px;
+    height: 200px;
+    background-color: black;
+    background-image: url("sprites/back.png");
+}
+.thirdcard {
+    width: 140px;
+    height: 200px;
+    background-color: black;
+    background-image: url("sprites/back.png");
+}
+.fourthcard {
+    width: 140px;
+    height: 200px;
+    background-color: black;
+    background-image: url("sprites/back.png");
+}
